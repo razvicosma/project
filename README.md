@@ -64,7 +64,7 @@ The frontend of the project is made using JavaFX. All the screens are made using
 The backend consists mainly of my sql utility class. In this classed I wrote some methods for each functionality that I needed(add user, verify user, get all apartments, make booking, make review, etc.) Each method establishes a connection to the database and sends a specific query in order to help with solving the problem. For example to get all the apartments, after sending the query to the database I used the result set in order to fetch the data and add it into a java list, so that it could be displayed later.
 ### Database
 
-
+![Database](Screenshot10.png)
   
 ## Installation
 
@@ -72,13 +72,7 @@ Retrieve the project files along with the necessary dependencies, set up the dat
 
 ## Usage
 
-This is the Sign Up screen:
-
-After creating an account you can see all the apartments and choose one that you like:
-
-After choosing one you can make a reservation for that:
-
-After making the reservation you can see it in your account:
+You simply create an account and after that you are able to see the list with all the apartments. You choose an apartment that you like and after that you are sent to the apartment's page. On there you can make a reservation and see past reviews of the apartment. After making a reservation you can see it in your account that you can access by simply pressing the profile picture on the logged in page. There you see all the user information(except password) and past bookings and reviews.
 
 ## Further developments
 
