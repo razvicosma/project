@@ -30,6 +30,7 @@ For the connectivity between the two, JDBC was used. All the methods that were u
 The GUI has 7 screens:
 - Home Screen
 ![Home Screen](Screenshot1.png)
+![Home Screen](Screenshot2.png)
   
     The launching screen. This one includes the logo of the app, some contact information and a menu button. From there one can choose to go to one of the next screens, the sign in or the sign up.
     <br></br>
