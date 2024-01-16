@@ -1,0 +1,37 @@
+/* ListView Styles for a Beautiful Look with Dark Gray Background */
+.list-view {
+    -fx-background-color: #333333; /* Dark gray background for the entire ListView */
+    -jfx-cell-height: 40;
+    -jfx-rippler-fill: #4d4d4d; /* Dark gray ripple effect */
+    -jfx-cell-hover-color: #555555; /* Slightly lighter background color on hover */
+    -jfx-cell-hover-visible: true; /* Show hover effect */
+}
+
+.list-view .list-cell {
+    -fx-background-color: #666666; /* Dark gray background for a clean look */
+    -fx-background-radius: 5px; /* Rounded corners for each cell */
+    -fx-text-fill: #fff; /* White text for contrast */
+    -fx-alignment: center-left; /* Align text to the left */
+}
+
+.list-view .list-cell:hover {
+    -fx-background-color: #555555; /* Slightly darker background on hover */
+}
+
+.list-view .list-cell:filled:selected,
+.list-view .list-cell:filled:selected:hover {
+    -fx-background-color: #444444; /* Darker gray background for selected item */
+}
+
+/* ScrollBar Styles */
+.list-view .scroll-bar {
+    -fx-background-color: #666666; /* Dark gray background for the scrollbar track */
+}
+
+.list-view .scroll-bar .thumb {
+    -fx-background-color: #999999; /* Lighter gray color for the scrollbar thumb */
+}
+
+.list-view .scroll-bar .track {
+    -fx-background-color: #555555; /* Darker gray color for the scrollbar track */
+}

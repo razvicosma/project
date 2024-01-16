@@ -1,0 +1,75 @@
+/* DatePicker Styles */
+.date-picker {
+    -fx-font-size: 14px;
+    -fx-cursor: hand;
+    -fx-background-color: #4d4d4d; /* Dark gray background for the date picker */
+    -fx-background-radius: 5px; /* Rounded corners */
+    -fx-text-fill: #fff; /* White text for contrast */
+    -fx-border-color: #fff; /* White border for contrast */
+    -fx-border-width: 1px;
+}
+
+.date-picker:hover {
+    -fx-background-color: #555555; /* Slightly darker background on hover */
+}
+
+.date-picker:focused {
+    -fx-border-color: #fff; /* White border when focused */
+    -fx-border-width: 1px;
+}
+
+.date-picker:disabled {
+    -fx-opacity: 0.7; /* Reduce opacity for disabled state */
+}
+
+.date-picker .arrow-button {
+    -fx-background-color: #4d4d4d; /* Dark gray background for the arrow button */
+    -fx-background-radius: 0 5px 5px 0; /* Rounded corners on the right side */
+    -fx-shape: null; /* Remove default shape to make a square button */
+}
+
+.date-picker .arrow-button:hover {
+    -fx-background-color: #555555; /* Slightly darker background on hover */
+}
+
+.date-picker .arrow-button:pressed {
+    -fx-background-color: #444444; /* Darker background when pressed */
+}
+
+.date-picker-popup, .date-picker-popup > .popup-content {
+    -fx-background-color: #f0f0f0; /* Light gray background for the date list */
+}
+
+.date-picker .day-cell {
+    -fx-background-color: #4d4d4d; /* Dark gray background for the day cells */
+    -fx-background-radius: 5px; /* Rounded corners */
+    -fx-text-fill: #fff; /* White text for contrast */
+}
+
+.date-picker .day-cell:hover {
+    -fx-background-color: #555555; /* Slightly darker background on hover */
+}
+
+.date-picker .day-cell:focused {
+    -fx-background-color: #555555; /* Slightly darker background when focused */
+}
+
+.date-picker .day-cell:selected {
+    -fx-background-color: #444444; /* Darker background for selected day */
+}
+
+.date-picker .day-cell:disabled {
+    -fx-opacity: 0.5; /* Reduce opacity for disabled days */
+}
+
+.date-picker .text-field {
+    -fx-background-color: #f0f0f0; /* Light gray background for the text field */
+    -fx-background-radius: 5px; /* Rounded corners */
+    -fx-border-color: #fff; /* White border for contrast */
+    -fx-border-width: 1px;
+    -fx-text-fill: #333; /* Dark text for contrast in the text field */
+}
+
+.date-picker .text-field:focused {
+    -fx-border-color: #555555; /* Slightly darker border when focused */
+}

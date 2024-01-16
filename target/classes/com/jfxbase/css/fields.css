@@ -1,0 +1,23 @@
+/* TextFields and PasswordFields Styles for a Beautiful Look with Dark Gray Background */
+.text-field, .password-field {
+    -fx-background-color: #666666; /* Dark gray background for text fields */
+    -fx-background-radius: 10px; /* Rounded corners */
+    -fx-text-fill: #fff; /* White text for contrast */
+}
+
+.text-field:hover, .password-field:hover {
+    -fx-background-color: #555555; /* Slightly darker background on hover */
+}
+
+.text-field:focused, .password-field:focused {
+    -fx-background-color: #555555; /* Darker background when focused */
+}
+
+/* PasswordField Bullet Color */
+.password-field .show-hide-password-button {
+    -fx-background-color: #fff; /* White color for the password bullet */
+}
+
+.password-field .show-hide-password-button:hover {
+    -fx-background-color: #ccc; /* Light gray color on hover for the password bullet */
+}
