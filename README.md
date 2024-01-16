@@ -45,15 +45,16 @@ The GUI has 7 screens:
 	This screen pops up after you successfully created an account or after you entered your account. On this screen one can see his profile photo along with the users name in the top right corner and a big list in the center of the screen. This list has all the apartments displayed along with one photo and some information for each. Above the list there is a search bar and some filter by and sort by buttons. The search bar can search in the name, location or the tags of the apartment.
 	
 - Apartment Screen
-
+![Apartment](Screenshot6.png)
+![Apartment](Screenshot7.png)
 	If you press on a photo of an apartment the next screen that will appear will be the apartment screen. On this one you will be able to see all the information available on that specific apartment, you can see multiple photos if the apartment has more, you can see previous reviews, and of course you can make a reservation. It is obvious that you cannot book an already booked date or you cannot book in the past and of course you cannot select the check out date to be earlier than the check in.
 	
 - User Screen
-
+![User](Screenshot8.png)
 	When in the Logged In Screen if you press on the profile picture of the user you will be sent to the user's screen. Here you can see all the information available on the user: profile picture, first name, last name, username and all the bookings made(password is not displayed due to security reasons). After the check out date of a booking has passed(supposedly the user visited the apartment) a review field will appear for that certain reservation. The user can give a rating and a short comment. After sending it, it will be displayed on the review list of that apartment and in the user's account below the reservation that he reviewed. 
   
  - Admin Screen
-
+![Admin](Screenshot9.png)
  	Only the admin accounts have the rights to see this screen. On this screen is displayed a list with all the users with their information(including password). Each item of the list has a delete button and the admin can remove the account of any user, including all the reservations and reviews made by them.
 
 ### Java
