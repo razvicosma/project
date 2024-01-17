@@ -8,7 +8,7 @@ The main goal of this project is to familiarize with SQL, Java and IDEs that are
 - [Description](#Description)
   - [Preliminaries](#Preliminaries) 
   - [Screens](#Screens)
-  - [Java Class Diagram](#Java)
+  - [Java](#Java)
   - [Database](#Database)
 - [Installation](#installation)
 - [Usage](#usage)
